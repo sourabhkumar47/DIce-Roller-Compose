@@ -35,7 +35,9 @@ fun DiceWithButtonAndImage(modifier: Modifier = Modifier) {
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Button(onClick = { /*TODO*/ }) {
-            Text(stringResource(id = R.string.roll))ad
+            Text(stringResource(id = R.string.roll))
+
+
         }
     }
 }
