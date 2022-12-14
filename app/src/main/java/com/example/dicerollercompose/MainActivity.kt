@@ -47,7 +47,7 @@ fun DiceWithButtonAndImage(modifier: Modifier = Modifier) {
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Image(
-            painter = painterResource(R.drawable.dice_1), contentDescription = null
+            painter = painterResource(id = imageResource), contentDescription = result.toString()
         )
 
         Spacer(modifier = Modifier.height(16.dp))
